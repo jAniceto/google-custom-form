@@ -16,21 +16,17 @@
     .row {text-align: center;}
     ::-webkit-input-placeholder {text-align: center;}
   </style>
-
-  </head>
-
+</head>
 
 <body>
   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-
-    <script type="text/javascript">var submitted=false;</script>
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='';}"></iframe>
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='';}"></iframe>
 
 <div class="container">
-
   <div class="row">
   <div class="col-md-6 col-md-offset-3">
-  <!-- <div class="main_block"> -->
+
     <h1>Custom Google Form</h1>
     <form id="input-form" action="" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
       <div class="form-group">
@@ -67,6 +63,5 @@
       $('#input-feedback').text('Thank you!');
     });
   </script>
-
 </body>
 </html>
