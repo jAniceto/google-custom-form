@@ -1,4 +1,4 @@
-google-custom-form
+Custom Google Form
 ==================
 
 Submit to a google spreadsheet using a form of your own design.
