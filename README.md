@@ -19,20 +19,10 @@ Submit to a google spreadsheet using a form of your own design. No redirect to g
 * Style your page how you like, put in any sort of behavior you want to have happen when someone submits an entry (we're just having the form field say 'Thank You!'), then put these files on a web server somewhere, and you should now be able to submit data to your custom form, and see it appear in your Google Spreadsheet.
 
 
-###MULTIPLE QUESTIONS:
+###DIFFERENT NUMBER OF QUESTIONS:
 
-Some people have asked about incorporating multiple questions, so I've included an `index2.html` file which shows a form with two questions.
+You can edit the index.html file to suport any number of questions. Just create a Google form with the intended number of questions and add/remove the respective variables in the Javascript. The submit URL should refect the changes and look like this:
 
-Essentially, you just need to make sure your submit URL looks like this:
+`https://docs.google.com/forms/d/e/[YOURFORMID]/formResponse?entry.[YOURQUESTION1IDHERE]=[YOURQUESTION1ANSWERHERE]&entry.[YOURQUESTION2IDHERE]=[YOURQUESTION2ANSWERHERE]&submit=Submit`
 
-```
-https://docs.google.com/forms/d/[YOURFORMID]/formResponse?entry.[YOURQUESTION1IDHERE]=[YOURQUESTION1ANSWERHERE]&entry.[YOURQUESTION2IDHERE]=[YOURQUESTION2ANSWERHERE]&submit=Submit
-```
-
-where you just keep separating each question and answer with an ampersand.
-
-entry.1=answer1&entry.2=answer2&entry3=answer3
-
-etc.
-
-Good luck! I have put my own sample form online [here](http://mikeheavers.com/lab/google/forms/custom-form.html) and you can view the spreadsheet with the form responses [here](https://docs.google.com/spreadsheets/d/1mzPTZC2YbQpN5IK07Fj4sENj6zajNu6TbFcHo7lD45o).
+You can open the index.html file in a browser and test the form. The spreadsheet containing the responses can be found [here](https://docs.google.com/spreadsheets/d/1gzMhtf8RAC4XVZlSQsmEx6k0MKXuxW3Buv0QFZ9vMw8/edit#gid=765584236).
