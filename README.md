@@ -25,4 +25,4 @@ You can edit the index.html file to suport any number of questions. Just create 
 
 `https://docs.google.com/forms/d/e/[YOURFORMID]/formResponse?entry.[YOURQUESTION1IDHERE]=[YOURQUESTION1ANSWERHERE]&entry.[YOURQUESTION2IDHERE]=[YOURQUESTION2ANSWERHERE]&submit=Submit`
 
-You can open the index.html file in a browser and test the form. The spreadsheet containing the responses can be found [here](https://docs.google.com/spreadsheets/d/1gzMhtf8RAC4XVZlSQsmEx6k0MKXuxW3Buv0QFZ9vMw8/edit#gid=765584236).
+You can test the form [here](http://joseaniceto.com/google-custom-form/). The spreadsheet containing the responses can be found [here](https://docs.google.com/spreadsheets/d/1gzMhtf8RAC4XVZlSQsmEx6k0MKXuxW3Buv0QFZ9vMw8/edit#gid=765584236).
